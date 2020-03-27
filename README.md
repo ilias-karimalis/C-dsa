@@ -1,4 +1,4 @@
-# Data Strucures and Algorithms coverd by UBC's cs221
+# Data Strucures and Algorithms covered by UBC's cs221
 
 After having completed cs221, I quickly found myself forgetting the implementation
 details and complexities of the various data structures, and algorithms covered in
