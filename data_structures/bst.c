@@ -1,25 +1,29 @@
-#include "stack.h"
+#include "bst.h"
+#include <stdlib.h>
+#include <stdio.h>
 
-#define NULL ((void*) 0)
-
-typedef struct Node {
-    int value;
-    struct Node* left;
-    struct Node* right;
-} Node;
-
-Node* node_init(int value);
-void bst_insert(Node* bst, int value);
-void bst_remove(Node* bst, int value);
-Node* bst_find(Node* bst, int value);
-void bst_inorder(Node* bst);
-void bst_delete(Node* bst);
-Node* bst_minValueNode(Node* bst);
+int main() {
+    Node* bst = node_init(5);
+    bst_insert(bst, 1);
+    bst_insert(bst, 2);
+    bst_insert(bst, 3);
+    bst_insert(bst, 4);
+    bst_insert(bst, 6);
+    bst_insert(bst, 7);
+    bst_insert(bst, 8);
+    bst_insert(bst, 9);
+    bst_inorder(bst);
+    bst_remove(bst, 5);
+    bst_remove(bst, 9);
+    bst_remove(bst, 1);
+    bst_inorder(bst);
+}
 
 Node* node_init(int value) {
     Node* res = malloc(sizeof(Node));
     res->value = value;
-    res->left = res->right = NULL;
+    res->left = NULL;
+    res->right = NULL;
     return res;
 }
 
@@ -50,27 +54,29 @@ Node* bst_find(Node* bst, int value) {
 }
 
 void bst_inorder(Node* bst) {
-    if (root) {
+    if (bst) {
         bst_inorder(bst->left);
-        printf("%d \n", bst->key);
+        printf("%d \n", bst->value);
         bst_inorder(bst->right);
+    } else {
+        printf("[NULL] \n");
     }
 }
 
 Node* bst_remove(Node* bst, int value) {
-    if (!root) {
-        return root;
+    if (!bst) {
+        return bst;
     } else if (bst->value > value) {
         bst->left = bst_remove(bst->left, value);
     } else if (bst->value < value) {
         bst->right = bst_remove(bst->right, value);
     } else {
         if (!bst->left) {
-            Node* temp = root->right;
+            Node* temp = bst->right;
             free(bst);
             return temp;
         } else if (!bst->right) {
-            Node* temp = root->left;
+            Node* temp = bst->left;
             free(bst);
             return temp;
         } else {
