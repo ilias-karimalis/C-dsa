@@ -10,7 +10,7 @@ typedef struct Node {
 } Node;
 
 Node* node_init(int value);
-void bst_insert(Node* bst, int value);
+Node* bst_insert(Node* bst, int value);
 Node* bst_remove(Node* bst, int value);
 Node* bst_find(Node* bst, int value);
 void bst_inorder(Node* bst);

@@ -11,32 +11,29 @@ int main() {
     bst_insert(bst, 6);
     bst_insert(bst, 7);
     bst_insert(bst, 8);
-    bst_insert(bst, 9);
+    bst_insert(bst, 0);
     bst_inorder(bst);
-    bst_remove(bst, 5);
-    bst_remove(bst, 9);
-    bst_remove(bst, 1);
+    bst = bst_remove(bst, 5);
     bst_inorder(bst);
 }
 
 Node* node_init(int value) {
     Node* res = malloc(sizeof(Node));
     res->value = value;
-    res->left = NULL;
-    res->right = NULL;
+    res->left = 0;
+    res->right = 0;
     return res;
 }
 
-void bst_insert(Node* bst, int value) {
+Node* bst_insert(Node* bst, int value) {
     if (bst == NULL) {
-        bst = node_init(value);
-    } else {
-        if (bst->value > value) {
-            bst_insert(bst->left, value);
-        } else if (bst->value < value) {
-            bst_insert(bst->right, value);
-        }
+        return node_init(value);
+    } else if (value < bst->value) {
+        bst->left = bst_insert(bst->left, value);
+    } else if (value > bst->value) {
+        bst->right = bst_insert(bst->right, value);
     }
+    return bst;
 }
 
 Node* bst_find(Node* bst, int value) {
@@ -54,12 +51,10 @@ Node* bst_find(Node* bst, int value) {
 }
 
 void bst_inorder(Node* bst) {
-    if (bst) {
+    if (bst != NULL) {
         bst_inorder(bst->left);
         printf("%d \n", bst->value);
         bst_inorder(bst->right);
-    } else {
-        printf("[NULL] \n");
     }
 }
 
