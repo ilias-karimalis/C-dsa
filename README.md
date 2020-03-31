@@ -28,3 +28,7 @@ the course.
 - Kruskal's Spanning Trees
 - Prim's Spanning Trees
 - Dijkstra's Shortest Path
+- Fibonacci
+  1. recursive
+  2. dynamic programming
+  3. matrix exponentiation
