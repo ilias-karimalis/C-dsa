@@ -4,6 +4,8 @@ After having completed cs221, I quickly found myself forgetting the implementati
 details and complexities of the various data structures, and algorithms covered in
 the course.
 
+TESTING
+
 ## TODO
 1. Debug Bst
 2. Implement the rest of DSA
