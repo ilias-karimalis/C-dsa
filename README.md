@@ -6,15 +6,14 @@ the course.
 
 
 ## TODO
-1. Debug Bst
-2. Implement the rest of DSA
+1. Implement the rest of DSA
 
 ## Data Structures:
-- Singly Linked List
-- Stacks
-- Queues
+- Singly Linked List        DONE
+- Stacks                    DONE
+- Queues                    DONE
 - Doubly Linked List
-- Binary Search Trees
+- Binary Search Trees       DONE
 - AVL Trees
 - B-Trees
 - Priority Queues
@@ -23,13 +22,14 @@ the course.
 - Graphs
 
 ## Algorithms:
-- Selection Sort
+- Selection Sort            DONE
 - Insertion Sort
 - Merge Sort
+- Heap Sort
 - Kruskal's Spanning Trees
 - Prim's Spanning Trees
 - Dijkstra's Shortest Path
 - Fibonacci
-  1. recursive
-  2. dynamic programming
-  3. matrix exponentiation
+  1. recursive              DONE
+  2. dynamic programming    DONE
+  3. matrix exponentiation  DONE
