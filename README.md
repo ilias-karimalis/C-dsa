@@ -23,7 +23,7 @@ the course.
 
 ## Algorithms:
 - Selection Sort            DONE
-- Insertion Sort
+- Insertion Sort            DONE
 - Merge Sort
 - Heap Sort
 - Kruskal's Spanning Trees
