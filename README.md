@@ -6,7 +6,8 @@ the course.
 
 
 ## TODO
-1. Implement the rest of DSA
+1. Debug heap.cpp
+2. Implement the rest of DSA
 
 ## Data Structures:
 - Singly Linked List        DONE
@@ -16,8 +17,8 @@ the course.
 - Binary Search Trees       DONE
 - AVL Trees
 - B-Trees
-- Priority Queues
-- Heaps
+- Priority Queues           DONE
+- Heaps                     DONE
 - Disjoint Sets
 - Graphs
 
