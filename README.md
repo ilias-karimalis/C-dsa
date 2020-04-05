@@ -26,6 +26,7 @@ the course.
 - Selection Sort            DONE
 - Insertion Sort            DONE
 - Merge Sort                DONE
+- QuickSort                 DONE
 - Heap Sort
 - Kruskal's Spanning Trees
 - Prim's Spanning Trees
