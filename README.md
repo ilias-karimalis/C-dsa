@@ -1,8 +1,9 @@
 # Data Strucures and Algorithms covered by UBC's cs221
 
-After having completed cs221, I quickly found myself forgetting the implementation
-details and complexities of the various data structures, and algorithms covered in
-the course.
+Originally began as an attempt to implement the Data Structures and Algorithms covered
+in UBC's CPSC 221 (Basic Algorithms and Data Structures), but has instead become an 
+attempt at implementing the various Data Structures and Algorithms covered in Introduction
+to Algorithms 3e by CLRS.
 
 
 ## TODO
