@@ -1,19 +1,19 @@
-# Data Strucures and Algorithms covered by UBC's cs221
+# Fun Data Strucures and Algorithms
 
-After having completed cs221, I quickly found myself forgetting the implementation
-details and complexities of the various data structures, and algorithms covered in
-the course.
+What is the point of learning algorithms if you can't implement them?!?
+After having completed a DSA couse, I quickly found myself forgetting the
+implementation details and complexities of various data structures,
+and algorithms that I found interesting.
 
 ## TODO
-1. Debug Bst
-2. Implement the rest of DSA
+1. Implement the rest of DSA
 
 ## Data Structures:
-- Singly Linked List
-- Stacks
-- Queues
+- Singly Linked List                    DONE
+- Stacks                                DONE
+- Queues                                DONE
 - Doubly Linked List
-- Binary Search Trees
+- Binary Search Trees                   DONE
 - AVL Trees
 - B-Trees
 - Priority Queues
@@ -28,7 +28,8 @@ the course.
 - Kruskal's Spanning Trees
 - Prim's Spanning Trees
 - Dijkstra's Shortest Path
-- Fibonacci
+- RSA
+- Fibonacci                             DONE
   1. recursive
   2. dynamic programming
   3. matrix exponentiation
