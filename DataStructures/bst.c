@@ -14,6 +14,7 @@ int main() {
     bst_insert(bst, 0);
     bst_inorder(bst);
     bst = bst_remove(bst, 5);
+    bst = bst_remove(bst, 8);
     bst_inorder(bst);
 }
 

@@ -16,15 +16,17 @@ and algorithms that I found interesting.
 - Binary Search Trees                   DONE
 - AVL Trees
 - B-Trees
-- Priority Queues
-- Heaps
+- Priority Queues                       DONE
+- Heaps                                 DONE
 - Disjoint Sets
 - Graphs
 
 ## Algorithms:
-- Selection Sort
-- Insertion Sort
-- Merge Sort
+- Selection Sort                        DONE
+- Insertion Sort                        DONE
+- Merge Sort                            DONE
+- QuickSort                             DONE
+- Heap Sort
 - Kruskal's Spanning Trees
 - Prim's Spanning Trees
 - Dijkstra's Shortest Path

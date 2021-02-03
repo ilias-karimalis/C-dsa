@@ -2,24 +2,24 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-int main()
-{
-  List* lst = list_init ();
-  list_push (lst, 0);
-  list_push (lst, 1);
-  list_push (lst, 2);
-  list_push (lst, 3);
-  list_push (lst, 4);
-  list_push (lst, 5);
-  list_push (lst, 6);
-  list_print (lst);
-  for (int i = 0; i < 10; i++) {
-    int x = list_pop (lst);
-    printf ("%d\n", x);
-    list_print (lst);
-  }
-  return 0;
-}
+//int main()
+//{
+//  List* lst = list_init ();
+//  list_push (lst, 0);
+//  list_push (lst, 1);
+//  list_push (lst, 2);
+//  list_push (lst, 3);
+//  list_push (lst, 4);
+//  list_push (lst, 5);
+//  list_push (lst, 6);
+//  list_print (lst);
+//  for (int i = 0; i < 10; i++) {
+//    int x = list_pop (lst);
+//    printf ("%d\n", x);
+//    list_print (lst);
+//  }
+//  return 0;
+//}
 
 /*
  * Allocates memory space for a new linked list and returns a ptr to this memory
